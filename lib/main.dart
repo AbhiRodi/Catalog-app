@@ -9,7 +9,9 @@ class NewProject extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(child: Text('New Project'),),
+        body: Center(
+          child: Text('New Project'),
+        ),
         appBar: AppBar(
           title: Text('New Project'),
         ),
