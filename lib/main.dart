@@ -1,21 +1,17 @@
+import 'package:first_project/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(NewProject());
+  runApp(Project());
 }
 
-class NewProject extends StatelessWidget {
+class Project extends StatelessWidget {
+  const Project({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('New Project'),
-        ),
-        appBar: AppBar(
-          title: Text('New Project'),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
